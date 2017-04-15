@@ -1,0 +1,17 @@
+1.index3.jsp side bar add improve show random & Different Pictures Pictures containing some discount offers
+2.footer improve
+3. about us
+4. location jaipur then show only jaipur adds
+5. offline fast work
+6. session=false in all files check
+7. instead of passing user id as query string use session
+
+hitesh:-
+1.blank save check
+2.order by cat_name
+3.Insert 50 to 100 product adds
+
+(class)
+1. back button disabled
+2. final check
+3. session check

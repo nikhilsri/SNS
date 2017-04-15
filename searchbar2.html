@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+     	<script src="js/jquery.min.js"></script>
+
+
+<script type="text/javascript">
+	jQuery(function($){
+		$('#search-trigger').click(function(){
+			$('#search-input').toggleClass('search-input-open');
+		});
+
+		$(document).click(function(e){
+			if(!$(e.target).closest('.ngen-search-form').length){
+				$('#search-input').removeClass('search-input-open');
+			}
+		})
+		})
+</script>
+
+</head>
+
+<body>
+<div>
+	<div class="form">
+		<form class="form-search ngen-search-form" action="search1.jsp" method="GET">
+			          
+
+			<input type="text" name="q" id="search-input" class="form-search-input" placeholder="Search by category , subcategory , product , Brand..." dir="ltr">
+								<span id="search-trigger" class="form-search-submit"><img src="images/search.png" style="padding-bottom:10px;height:35px"></span>
+
+		</form>
+		
+	</div>
+</div>
+
+</body>
+</html>
